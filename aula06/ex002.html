@@ -17,9 +17,8 @@
     <h1>Olá, mundo!</h1>    
     <p>Já me livrei da maldição</p>
     <script>
-        window.alert('Minha primeira mensagem')
-        window.confirm('Está gostando de JS')
-        window.prompt('Qual é seu nome?')
+        var nome = window.prompt('Qual é seu nome?') /* A variavel nome recebe o resultado do prompt que vai aparecer na janela */
+        window.alert('É um gande prazer em te conhecer, ' + nome + '!') /* Lembre que p + serve para concatenação */
     </script>
 </body>
 </html>
