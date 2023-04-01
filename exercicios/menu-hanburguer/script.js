@@ -1,8 +1,8 @@
 function openNav(){
-    alert("test")
+    document.getElementById("myNav").style.width ='100%';
 }
 
 function closeNav(){
-    alert("test2")
+    document.getElementById("myNav").style.width ='0%';
 }
 
