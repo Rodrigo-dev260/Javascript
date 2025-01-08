@@ -1,0 +1,28 @@
+body {
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    color: aqua;
+    list-style: none;
+    margin: 0 10px;
+    display: inline;
+}
+
+nav ul li {
+    
+    display: inline;
+    margin: 0 10px;
+}
+
+li a {
+    text-decoration: none;
+    
+}
+
+header, footer {
+    text-align: center;
+    padding: 1em o;
+}
